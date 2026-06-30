@@ -24,5 +24,19 @@
           <required>false</required>
         </attribute>
     </tag>
+    
+    <tag>
+        <name>display</name>
+        <tag-class>com.adil.tags.DisplayTag</tag-class>
+        <body-content>jsp</body-content>
+        <attribute>
+          <name>font</name>
+          <required>true</required>
+        </attribute>
+         <attribute>
+          <name>size</name>
+          <required>false</required>
+        </attribute>
+    </tag>
 
 </taglib>
